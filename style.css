@@ -1,0 +1,621 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.font-2 {
+    font-family: "Luckiest Guy", cursive;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 46px;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.p-bold {
+    font-weight: 700;
+}
+
+.font-base {
+    font-size: 20px;
+}
+
+.text-red {
+    color: #F65151;
+}
+
+.semi-heading {
+    font-size: 41px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-md {
+    width: 60%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.flex-left {
+    justify-content: start !important;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #0097E1;
+    border: none;
+    border-radius: 4px;
+    padding: .5rem;
+    font-size: 25px;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.btn-full {
+    background: #298CC6;
+    color: #FFFFFF;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-area {
+    background-color: #F1F1F1;
+    padding: 3rem 4rem 1rem 4rem;
+}
+
+.top-area h2 {
+    padding: 0 19%;
+    line-height: 1.2;
+}
+
+.multi-col-area {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.slogan-left img {
+    width: 32px;
+}
+
+.icon-img {
+    width: 32px;
+}
+
+.icon-img-lg {
+    width: 90px;
+}
+
+.icon-img-xlg {
+    width: 120px;
+}
+
+.img-icon-xs {
+    width: 15px;
+}
+
+.inner-container {
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+}
+
+.review-area {
+    width: 65%;
+    text-align: left;
+}
+
+.single-review-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.single-review-container .user-img {
+    width: 80px;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.review-text {
+    background-color: #F1F1F1;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.comments {
+    text-align: left;
+}
+
+.comments img {
+    margin: 1rem 0;
+}
+
+.showcase-area {
+    column-count: 2;
+    column-gap: 1rem;
+    text-align: left;
+}
+
+.single-showcase {
+    background-color: #F1F1F1;
+    border-radius: 9px;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+
+}
+
+.showcase-content {
+    padding: 1rem 1rem;
+}
+
+.product-details-area {
+    margin: 2rem 0;
+}
+
+.product-info {
+    width: 60%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.product-info div {
+    line-height: 2rem;
+}
+
+.product-info .price-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.product-info .offer-price-info {
+    text-decoration: line-through;
+    color: red;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.product-info .discount {
+    font-weight: 500;
+    font-size: 13px;
+    background: #23A35B;
+    color: #fff;
+    padding: 0 3px;
+    border-radius: 12px;
+}
+
+.benefits-area {
+    width: 60%;
+    margin: 1rem auto 0 auto;
+}
+
+.single-benefit {
+    margin: 2rem 0;
+}
+
+.percent-representation-area {
+    width: 60%;
+    margin: 3rem auto 1rem auto;
+}
+
+.percent-representation-area p {
+    text-align: left;
+    font-size: 24px;
+}
+
+.paramedic-table-area {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.comparison-table {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.comparison-table .row {
+    display: table-row;
+}
+
+.comparison-table .cell {
+    display: table-cell;
+    padding: 12px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.comparison-table .header .cell {
+    font-weight: bold;
+}
+
+.comparison-table .main {
+    background: #002b5e;
+}
+
+.comparison-table .check {
+    color: white;
+    background: #002b5e;
+}
+
+.comparison-table .cross {
+    color: red;
+}
+
+.comparison-table .index-text {
+    color: #ffffff;
+}
+
+.comparison-table img {
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.comparison-table .paramedic-flash-img {
+    position: relative;
+}
+
+.comparison-table .paramedic-flash-img img {
+    position: absolute;
+    top: -30%;
+    left: 30%;
+}
+
+.comparison-table .empty {
+    border: none;
+    background: transparent;
+}
+
+.comparison-table .top-left {
+    border-top-left-radius: 12px;
+}
+
+.comparison-table .rounded-left {
+    border-bottom-left-radius: 12px;
+}
+
+.comparison-table .rounded-right {
+    border-bottom-right-radius: 12px;
+}
+
+.comparison-table .rounded-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Responsive CSS */
+@media (max-width: 992px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    .semi-heading {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    .font-base {
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        font-size: 18px;
+    }
+
+    .top-area h2 {
+        padding: 0 0;
+    }
+
+    .hide-on-md-screen {
+        display: none;
+    }
+
+    .multi-col-on-md {
+        flex-direction: row-reverse;
+    }
+
+    .percent-representation-area p {
+        font-size: 18px;
+    }
+
+    .benefits-area {
+        width: 90%;
+    }
+
+    .percent-representation-area {
+        width: 90%;
+    }
+
+    .paramedic-table-area {
+        width: 90%;
+    }
+
+    .paramedic-table-area h2 {
+        margin-bottom: revert;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    .semi-heading {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    .font-base {
+        font-size: 16px;
+    }
+
+    .img-md {
+        width: 65%;
+    }
+
+    .top-area h2 {
+        padding: 0 0;
+    }
+
+    .hide-on-md-screen {
+        display: none;
+    }
+
+    .multi-col-on-md {
+        display: none;
+    }
+
+    .percent-representation-area p {
+        font-size: 18px;
+    }
+
+    .benefits-area {
+        width: 90%;
+    }
+
+    .product-info {
+        width: 80%;
+    }
+
+    .percent-representation-area {
+        width: 90%;
+    }
+
+    .paramedic-table-area {
+        width: 90%;
+    }
+
+    .paramedic-table-area h2 {
+        margin-bottom: revert;
+    }
+
+    .comparison-table img {
+        width: 70px;
+    }
+}
+
+@media (max-width: 640px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .semi-heading {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .font-base {
+        font-size: 12px;
+    }
+
+    .icon-img {
+        width: 24px;
+    }
+
+    .img-md {
+        width: 70%;
+    }
+
+    .top-area h2 {
+        padding: 0 0;
+    }
+
+    .hide-on-md-screen {
+        display: none;
+    }
+
+    .multi-col-on-md {
+        display: none;
+    }
+
+    .multi-col-area {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .review-area {
+        width: 90%;
+    }
+
+    .showcase-area .multi-col-area {
+        flex-direction: row;
+    }
+
+    .percent-representation-area p {
+        font-size: 12px;
+    }
+
+    .benefits-area {
+        width: 92%;
+    }
+
+    .product-info {
+        width: 90%;
+    }
+
+    .percent-representation-area {
+        width: 92%;
+    }
+
+    .paramedic-table-area {
+        width: 92%;
+    }
+
+    .paramedic-table-area h2 {
+        margin-bottom: revert;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 9px;
+    }
+
+    .semi-heading {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .font-base {
+        font-size: 9px;
+    }
+
+    .img-md {
+        width: 75%;
+    }
+
+    .icon-img {
+        width: 18px;
+    }
+
+    .top-area h2 {
+        padding: 0 0;
+    }
+
+    .hide-on-md-screen {
+        display: none;
+    }
+
+    .multi-col-on-md {
+        display: none;
+    }
+
+    .percent-representation-area p {
+        font-size: 9px;
+    }
+
+    .benefits-area {
+        width: 92%;
+    }
+
+    .review-area {
+        width: 100%;
+    }
+
+    .product-info {
+        width: 95%;
+    }
+
+    .percent-representation-area {
+        width: 92%;
+    }
+
+    .paramedic-table-area {
+        width: 92%;
+    }
+
+    .paramedic-table-area h2 {
+        margin-bottom: revert;
+    }
+}
